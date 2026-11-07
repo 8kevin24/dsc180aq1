@@ -1,10 +1,14 @@
-# Allen session data (2.7 GB each)
+# data
+data/
 session_*/
 *.nwb
+*.csv
+manifest.json
 
-# large data tables
-units.csv
-channels.csv
+# slides and presentation scripts
+*.pptx
+*.docx
+journal_club_slides*.pdf
 
 # python and notebook cache
 __pycache__/
