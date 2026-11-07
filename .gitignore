@@ -1,0 +1,11 @@
+# Allen session data (2.7 GB each)
+session_*/
+*.nwb
+
+# large data tables
+units.csv
+channels.csv
+
+# python and notebook cache
+__pycache__/
+.ipynb_checkpoints/
